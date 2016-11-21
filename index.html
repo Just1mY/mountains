@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>五岳</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/moun.css" />
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--页头导航条-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <!--小窗口下折叠-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand">导航</span>
+        </div>
+
+        <!-- 导航项 -->
+        <div class="collapse navbar-collapse" id="header-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">风景欣赏<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">五岳</a></li>
+                        <li><a href="#">五岳</a></li>
+                        <li><a href="#">五岳</a></li>
+                        <li><a href="#">五岳</a></li>
+                        <li><a href="#">五岳</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">公司信息</a></li>
+                <li><a href="#">旅游线路</a></li>
+                <li><a href="#">客服咨询</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="搜索">
+                </div>
+                <button type="submit" class="btn btn-default">确认</button>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <!--轮播图-->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/taishan.jpg" alt="泰山">
+                    </div>
+                    <div class="item">
+                        <img src="images/huashan.jpg" alt="华山">
+                    </div>
+                    <div class="item">
+                        <img src="images/nanyuehengshan.jpg" alt="衡山">
+                    </div>
+                    <div class="item">
+                        <img src="images/beiyuehengshan.jpg" alt="恒山">
+                    </div>
+                    <div class="item">
+                        <img src="images/songshan.jpg" alt="嵩山">
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <h3>五岳简介</h3>
+            <p>中国五岳，中国五大名山的总称，是古代民间山神崇敬拜、五行观念和帝王巡猎封禅相结合的产物，后为道教所继承，被视为道教名山。分别是东岳泰山、西岳华山、南岳衡山、北岳恒山、中岳嵩山。</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+           <ul class="nav nav-tabs">
+               <li class="active">
+                   <a  data-toggle="tab" href="#taishan">泰山</a>
+               </li>
+               <li>
+                   <a data-toggle="tab" href="#huashan">华山</a>
+               </li>
+               <li>
+                   <a data-toggle="tab" href="#nyhengshan">衡山</a>
+               </li>
+               <li>
+                   <a data-toggle="tab" href="#byhengshan">恒山</a>
+               </li>
+               <li>
+                   <a  data-toggle="tab" href="#songshan">嵩山
+                   </a>
+               </li>
+           </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="taishan">
+                    <h2>东岳泰山</h2>
+                    <img class="img-float" src="images/taishan1.jpg" alt="泰山风景"/>
+                    <p>泰山又名岱山、岱宗、岱岳、东岳、泰岳，位于山东省中部，隶属于泰安市，绵亘于泰安、济南、淄博三市之间，总面积24200公顷。主峰玉皇顶海拔1545米，气势雄伟磅礴，有“五岳之首”、“五岳之长”、“天下第一山”之称。</p>
+                    <p>泰山被古人视为“直通帝座”的天堂，成为百姓崇拜，帝王告祭的神山，有“泰山安，四海皆安”的说法。自秦始皇开始到清代，先后有13代帝王引次亲登泰山封禅或祭祀，另外有24代帝王遣官祭祀72次。</p>
+                    <p>古代文人雅士更对泰山仰慕备至，纷纷前来游历，作诗记文。泰山宏大的山体上留下了20余处古建筑群，2200余处碑碣石刻。道教、佛教视泰山为“仙山佛国”，神化泰山，在泰山建造了大量宫观寺庙。经石峪的《金刚经》石刻，闻名中外。</p>
+                    <p>泰山风景以壮丽著称。重叠的山势，厚重的形体，苍松巨石的烘托，云烟的变化，使它在雄浑中兼有明丽，静穆中透着神奇。自然的泰山，彰显着自然的神奇；文化的泰山，印证着文化的神圣。泰山是中华民族的象征，是灿烂东方文化的缩影，是“天人合一”思想的寄托之地，是中华民族精神的家园。</p>
+                    <p>泰山雄峙于山东中部，古称“岱山”、“岱宗”，春秋时改称“泰山”。泰山前邻孔子故里曲阜，背依泉城济南。在神话中其往上最接近统领“三界”的玉皇大帝，东邻便是神仙居住的仙山蓬莱与瀛洲，故诗曰泰山“魂雄气壮九州东，一敞天门旭日升。百代帝王趋受命，万方处士向蓬瀛。（左河水）”泰山雄起于华北平原之东，凌驾于齐鲁平原之上，东临烟波浩淼的大海，西靠源远流长的黄河，南有汶、泗、淮之水，山脉绵亘100余公里，盘卧面积达426平方千米，主峰玉皇顶海拔1545米。[1]  被誉为“五岳之首”。</p>
+                    <p>泰山隶属于泰安市。绵亘于泰安、济南、莱芜三市之间，泰山风景以壮丽著称。重叠的山势，厚重的形体，苍松巨石的烘托，云烟的变化，使它在雄浑中兼有明丽，静泰山风景以壮丽著称。重叠的山势，厚重的形体，苍松巨石的烘托，云烟的变化，使它在雄浑中兼有明丽，静泰山风景以壮丽著称。重叠的山势，厚重的形体，苍松巨石的烘托，云烟的变化，使它在雄浑中兼有明丽，静东西长约200公里，南北宽约50公里。主峰玉皇顶，在泰安市城区北，东经117°6′，北纬36°16′。贯穿山东中部，主脉，支脉，余脉涉及周边十余县。</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/taishan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/huashan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/nanyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/songshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="huashan">
+                    <h2>西岳华山</h2>
+                    <img class="img-float" src="images/huashan1.jpg" alt="华山风景"/>
+                    <p>华山是中华民族的圣山。据清代国学大师章太炎和历代专家学者考证：华夏民族最初形成并居住于“华山之周”，名其国土曰华，其后人迹所至，遍及九州，华之名始广[2]  。中华之“华”，源于华山，由此，华山有了“华夏之根”之称。</p>
+                    <p>华山是道教主流全真派圣地，也是中国民间广泛崇奉的神祇，即西岳华山君神。截至2013年华山有72个半悬空洞，道观20余座，其中玉泉院、都龙庙、东道院、镇岳宫被列为全国重点道教宫观。</p>
+                    <p>1982年，华山被国务院颁布为首批国家级风景名胜区；1991年，华山被国家旅游局评为四十佳旅游胜地之一；1999年，华山被中央文明委、建设部、国家旅游局命名为全国文明风景旅游区示范点；2004年，华山被评为中华十大名山； 2011年，华山被国家旅游局评为国家AAAAA级旅游景区。</p>
+                    <p>华山还是神州九大观日处之一。华山观日处位于华山东峰（亦称朝阳峰），朝阳台为最佳地点。华山还是道教胜地，为“第四洞天”，有陈抟、郝大通、贺元希等著名的道教高人。</p>
+                    <p>华山位于陕西渭南华阴市境内，处于东经109°57′—110°05′，北纬34°25′—34°00′之间。东西长15千米，南北宽10千米，景域面积约148平方千米。西距陕西省会西安120千米。</p>
+                    <p>华山山脉是深成侵入岩体的花岗岩浑然巨石，顶部是粗粒（粒径5毫米）斑状花岗岩；从新生代燕山期约7000万年以前，华山山脉的地壳继续上升，而渭河地带相反向下凹陷。这种内动力地壳作用，时快时慢，时断时续，显现出东西一线上并列着许多平整的三角形或梯形面，形成了秦岭北麓的大断层。这些大致平行的东西向断层，将山地割切成若干长条形断块。断块在彼此相互上升下降活动中，多呈北翘、南俯的岭谷相间的地形。同时，也出现了许多与东西向斜交的断层，使原长条形断块被切成多段。各段地发生前后错动，形成复杂运动。加之雨水、阳光、冰冻、流水等各种外力作用的相互影响，花岗岩才直接露出空间。中部是中粒（粒径2—5毫米）花岗河长岩及片麻状花岗岩。据地质科学工作者用放射性同位素测定，华山花岗岩形成期距今约12100万年左右，华山山脉地区的地壳发生活动，在受挤压、褶皱和破裂的过程中，岩浆开始沿着裂缝向表层地壳上升侵入，在3—6千米深处冷却，凝结成岩。</p>
+                    <p>从新生代燕山期约7000万年以前，华山山脉的地壳继续上升，而渭河地带相反向下凹陷。这种内动力地壳作用，时快时慢，时断时续，显现出东西一线上并列着许多平整的三角形或梯形面，形成了秦岭北麓的大断层。这些大致平行的东西向断层，将山地割切成若干长条形断块。断块在彼此相互上升下降活动中，多呈北翘、南俯的岭谷相间的地形。同时，也出现了许多与东西向斜交的断层，使原长条形断块被切成多段。各段地发生前后错动，形成复杂运动。加之雨水、阳光、冰冻、流水等各种外力作用的相互影响，花岗岩才直接露出空间。</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/taishan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/huashan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/nanyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/songshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="nyhengshan">
+                    <h2>南岳衡山</h2>
+                    <img class="img-float" src="images/nanyuehengshan1.jpg" alt="衡山风景"/>
+                    <p>衡山（Mount Heng），又名南岳、寿岳、南山，为中国“五岳”之一，位于中国湖南省中部偏东南部，绵亘于衡阳、湘潭两盆地间,，主体部分在衡阳市南岳区和衡山、衡阳县境内。衡山的命名，据志书记载，因其位于星座二十八宿的轸星之翼，“变应玑衡”，“铨德钧物”，犹如衡器，可称天地，故名衡山。</p>
+                    <p>衡山是中国著名的道教、佛教圣地，环山有寺、庙、庵、观200多处。衡山山神是古时民间崇拜的火神祝融，他居于衡山，教民用火，化育万物，死后葬于衡山山中，被当地尊称南岳圣帝。道教“三十六洞天，七十二福地”，有四处位于衡山之中。衡山的地质构造主要是花岗岩的断裂构造，花岗岩断块组成峰林状的垒形中山地貌，群峰突起，自上而下分为四级阶梯</p>
+                    <p>衡山介于北纬27°4′-27°20′，东经112°34′-112°44′之间，呈东北—西南走向，北起衡山县福田铺乡，南迄衡阳县樟木乡，西起衡阳县界牌镇，东止衡阳市南岳区，长38公里，最宽处17公里，总面积640平方公里。衡山主要山峰有回雁峰、祝融峰、紫盖峰、岳麓山等，最高峰祝融峰海拔1300.2米。衡山东北坡、东坡、东南坡共计河川26条，经衡阳、湘潭、衡山3县的易俗河、荆坡河、乌石港、龙隐港、萱洲港等注入湘江。</p>
+                    <p>衡山位于中国湖南省偏东南部，北起衡山县福田铺乡，南迄衡阳县樟木乡，西起衡阳县界牌镇，东止衡阳市南岳区，长38公里，最宽处17公里，总面积640平方公里，介于北纬27°4′-27°20′，东经112°34′-112°44′之间；南面是衡阳盆地，东面是湘中丘陵地区。</p>
+                    <p>衡山以一块大花岗岩岩石为基础，由于表层沉积遭到冲刷和强烈剥蚀，花岗岩有较大面积的出露。岩内穿插有伟晶花岗岩，石英岩脉很多，宽狭变化较大，宽的可达40厘米，这些岩脉对于花岗岩的风化有加速作用。基岩的上覆红壤中含有大量石英沙粒，证明是由花岗岩风化来的。包围在花岗岩外围的岩石分三类，志留奥陶纪紫色页岩及砾状石英岩，泥盆纪沙岩及页岩，第三纪红色砂岩及页岩。以性质而论，砾状石英岩最硬，紫色页岩最软，在同期岩层上表现为不同之地形。由于气象气候的关系，流水、风、热等风化、剥蚀作用，形成了现代衡山的奇特景观。</p>
+                    <p>衡山岩体东北部为第一次侵入的斑状二长花岗岩，岩体西南部为第二次侵入的白石峰二云母花岗岩。前者分布于南岳镇一祝融峰一线的东侧，出露面积217平方公里，同位素年龄值12318.7万年，属燕山早期侵入体。按其岩性、岩石结构及出露部位，可划为两个岩性带即祝融峰一带的片麻状斑状二长花岗岩和斑状角闪石黑云母二长花岗岩，另有少量的斑状黑云母花岗岩。后者分布于望峰一白石峰的西侧，出露面积为233平方公里，同位素年龄值8012.1万年，属燕山早期第二次侵入体。岩体东侧与斑状二长花岗岩体呈侵入接触，接触面清楚，倾角25°一80°，岩体南侧、西侧与冷家溪群接触，形成混合岩带。岩体可分为二部分，主体部分的二云母花岗岩，边缘部分的混合岩带宽岩石暗灰色、灰色、灰白色，多具片状、片麻状构造，出产钾长石、钠长石、高岭土。</p>
+                    <p>衡山土壤的垂直分布是表层植被土（稍含腐殖质，适于先锋植物生长，但很薄，且越向山顶，这一层越薄）表土以下是黄棕壤，再下是黄壤，最底层是红壤。土壤中富含碎石英砂粒。</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/taishan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/huashan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/nanyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/songshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="byhengshan">
+                    <h2>北岳恒山</h2>
+                    <img class="img-float" src="images/beiyuehengshan1.jpg" alt="恒山风景"/>
+                    <p>恒山，亦名“太恒山”古称玄武山，崞山，高是山，玄岳。其中，倒马关、紫荆关、平型关、雁门关、宁武关虎踞为险，是塞外高原通向冀中平原之咽喉要冲。主峰天峰岭在浑源县城南，海拔2016.1米。</p>
+                    <p>现位于山西省大同市浑源县城南10公里处，距大同市市区62公里。北岳恒山与东岳泰山、西岳华山、南岳衡山、中岳嵩山并称为五岳，为中国地理标志，是天下道教主流全真派圣地。</p>
+                    <p>恒山风景名胜区是国务院1982年公布的首批44个国家级风景名胜区之一，含十三个子景区，辖有国家级文物保护单位4处、省级文物保护单位6处，景区面积147.51平方公里，外围保护区359.62平方公里。是国务院1982年公布的首批44个国家级风景名胜区之一，含十三个子景区，辖有国家级文物保护单位4处、省级文物保护单位6处，景区面积147.51平方公里,现为国家自然与文化双遗产、国家AAAA级旅游区。先后荣获“山西省文明风景旅游区”、“全国青年文明号”、“国家旅游名片”等荣誉称号。</p>
+                    <p>恒山位于山西省浑源县境内，地理坐标北纬39º23´至39º44´，东经113º36´至113º57´之间。</p>
+                    <p>恒山景区所在地浑源县属温带半干旱大陆性气候，四季分明。从新生代燕山期约7000万年以前，华山山脉的地壳继续上升，而渭河地带相反向下凹陷。这种内动力地壳作用，时快时慢，时断时续，显现出东西一线上并列着许多平整的三角形或梯形面，形成了秦岭北麓的大断层。这些大致平行的东西向断层，将山地割切成若干长条形断块。断块在彼此相互上升下降活动中，多呈北翘、南俯的岭谷相间的地形。同时，也出现了许多与东西向斜交的断层，使原长条形断块被切成多段。各段地发生前后错动，形成复杂运动。加之雨水、阳光、冰冻、流水等各种外力作用的相互影响，花岗岩才直接露出空间。冬季寒冷，春季干旱多风，夏季雨量集中，秋季短暂多晴。早晚温差大。[1]  恒山地区年平均温度为6.1℃，1月最冷，平均－12℃，7月最热，平均21.6℃。极端最高温为35.9℃，极端最低温为－37.3℃。</p>
+                    <p>野生动物约有60多种，其中一类保护动物为金钱豹、黑鹳；恒山松，风格别致，形状奇特。其中，有四株形状奇特的唐代古松，人称这为“四大夫格”。这四株古松，根部悬于石外，紧抓岩石，傲然挺立，气势不凡，别具风格。
+                        桃花洞古已有之，属恒山“七宫八洞十五庙”之一，位于真武大殿后的恒宗峰上。洞口坐北朝南，高有丈余，宽近八尺，入深约15米。传说，这里是桃花仙女修行的所在。玉女原在王母娘娘蟠桃园值守，后下凡投胎到北岳富户人家，因素喜桃花，人称桃花女。桃花女善禳镇之术，常为百姓破解疑难杂症，故得百姓爱戴。二类保护动物为金雕、原麝；三类保护动物秃鹫、猎隼、石貂、豹猫。公园境内维管束植物有63科、233属、407种，其中不乏有名贵中药材。公园总面积为28274.3公顷（42.41万亩），其中林业用地11243.3公顷（16.86万亩），非林业用地17031公顷（25.54万亩）。 林地覆盖率为26%，林木总蓄积30万立方米。</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/taishan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/huashan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/nanyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/songshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="songshan">
+                    <h2>中岳嵩山</h2>
+                    <img class="img-float" src="images/songshan1.jpg" alt="嵩山风景"/>
+                    <p>嵩山，古称“外方”，夏商时称“崇高”、“崇山”，西周时成称为 “岳山”，以嵩山为中央左岱（泰山）右华（华山），定嵩山为中岳，始称“中岳嵩山”。[1]  嵩山位于河南省西部，地处登封市西北面，西邻古都洛阳，东临郑州，属伏牛山系[2]  。介于东经112°56′07″～113°11′32″，北纬34°23′31″～34°35′53″。</p>
+                    <p>嵩山总面积约为450平方公里，由太室山与少室山组成，共72峰，海拔最低为350米，最高处为1512米。主峰峻极峰位于太室山，高1491.7米；最高峰连天峰位于少室山，高1512米。嵩山北瞰黄河、洛水，南临颍水、箕山，东通郑汴，西连十三朝古都洛阳，是古京师洛阳东方的重要屏障，素为京畿之地，具有深厚文化底蕴，是中国佛教禅宗的发源地和道教圣地。嵩山曾有30多位皇帝、150多位著名文人所亲临。《诗经》有“嵩高惟岳，峻极于天”的名句。</p>
+                    <p>嵩山是中华文明的重要发源地，也是中国名胜风景区，为五岳中的中岳。2004年2月，嵩山被联合国教科文组织列入世界地质公园。</p>
+                    <p>嵩山属伏牛山系，中国五岳之一，因位居中原大地之中，天地之中，通称为中岳。登封、汝州、巩义、偃师、伊川等市县。地理坐标为：东经112°56′07″至113°11′32″，北纬34°23′31″至34°35′53″</p>
+                    <p>嵩山岩石演变完整，太古宙、元古宙、古生代、中生代、新生代的地层和岩石均有出露，被地质学界称为“五世同堂”（在地球发展历史上，历太古代、元古代、古生代、中生代、新生代五代，习称为“五世同堂”）。嵩山地区的岩浆岩、沉积岩、变质岩的出露，构成了中国最古老的岩系——“登封朵岩”。据中国地质界测定，这里是世界上稀有的自然地质宝库。嵩山古生物化石十分丰富，在嵩山既有海相生物化石，也有陆相生物化石，还有古脊椎动物化石。这些古生物化石是地质和古生物演化的宝贵数据。</p>
+                    <p>据中外地质学家考察，在古老的太古宙时期，嵩山是一望无际的大海；在经历了23亿年前的“嵩阳运动”，8亿年前的“中岳运动”，5、6亿年前的“少林运动”，三次大的地壳运动之后，逐渐形成了山脉，结束了地质史上的元古代；进入了古生代的寒武纪和奥陶纪；又经过约两亿年，此处地壳上升至海平面以上，因其受风化和剥蚀作用，形成了嵩山地区的含煤地层。两亿三千年前后，在中国的版图上，又发生了一次延续很长时间的地壳运动，南北广大地区的“燕山运动”，嵩山地区受到南北方向的推挤，形成了今天的山势地貌。</p>
+                    <p>嵩山在不到20平方公里内清晰地保存着发生在距今23亿年、18亿年和5.7亿年的三次构造运动的遗迹，其不整合接触面清晰，变质变形遗迹多姿多彩。在400平方公里内，连续完整地出露着太古宙、远古宙、古生代、中生代和新生代的岩浆岩、变质岩和沉积岩。五个时期的地质现象在嵩山表露齐全，地质学上称之为世界上罕见的“五代同堂”。马杏垣教授的“重力滑动构造”理论，创立于嵩山，各种滑动遗迹在嵩山都有典型系统的显示。嵩山以其丰富的地质内涵受到世人青睐。观看嵩山五代地质，犹如翻阅一部地质史。嵩山地区的岩浆岩、沉积岩、变质岩的出露，构成了中国最古老的岩象——“登封群”的“登封朵岩”。</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/taishan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/huashan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/nanyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/songshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="thumbnail">
+                                <img src="images/beiyuehengshan1.jpg" alt="缩略图">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-xs-12 col-sm-4">
+                <span>公司地址：xxxxxx</span>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <span>电话：000000000</span>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <span>邮箱：aaa@sssss</span>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="jquery/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
